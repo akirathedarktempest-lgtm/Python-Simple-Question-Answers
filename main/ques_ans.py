@@ -23,5 +23,15 @@ questions=[
     ["What will be the output:\nif []:\n\tprint(\"Yes\")\nelse:\n\tprint(\"No\")","No"],
     ["Is this right:\ndef func(a=0,b):\n","No, it will be an syntax error. If a parameter is made default then all the parameters after it must be default as well."],
     ["Will this program work:\ntry:\n\tprint(\"Yes!\")","No, if try is being used then except must be added to the program next to it."],
-    ["What will be:\nprint(\"2\">\"10\")","True"]
+    ["What will be:\nprint(\"2\">\"10\")","True"],
+    ["What will be:\n\"1\"+\"1\"","11"],
+    ["What will be:\n\"5\"*4","5555"],
+    ["What will be:\n10+1","11"],
+    ["What will be:\n4/0","It will cause: ZeroDivisionError"],
+    ["What will be:\n0/1","0.0"],
+    ["What will be:\n10*4/2","20"],
+    ["What will be:\n2**3","8"],
+    ["What do \\n escape sequance do?","Makes a new line in a string"],
+    ["Which error will happen:\ndef num(n:int):\n\tprint(n)\nnum(\"hi\")","No error :3\n(seriously, I was shocked when I tested it lol)"],
+    ["True or False:\n\"2\">\"10\"","True"]
 ]
