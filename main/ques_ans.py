@@ -33,5 +33,16 @@ questions=[
     ["What will be:\n2**3","8"],
     ["What do \\n escape sequance do?","Makes a new line in a string"],
     ["Which error will happen:\ndef num(n:int):\n\tprint(n)\nnum(\"hi\")","No error :3\n(seriously, I was shocked when I tested it lol)"],
-    ["True or False:\n\"2\">\"10\"","True"]
+    ["True or False:\n\"2\">\"10\"","True"],
+    ["True or False:\n20!=20","False"],
+    ["True or False:\n2==(4-2+4-3+1)","False"],
+    ["True or False:\nbool(0)","False"],
+    ["True or False:\nbool(False)","False"],
+    ["True or False:\nbool(\"False\")","True"],
+    ["True or False:\nbool(set())","False"],
+    ["True or False:\nbool(12)","True"],
+    ["True or False:\nbool(100-99+1-2==False)","True"],
+    ["True or False:\nbool(a=0)","Error lol\nTypeError, bool takes no keyword arguement"],
+    ["True or False:\ndef num(n:int):\n\tpass\nbool(num(120))","False lol\nI don't know how, haha, it's funny"],
+    ["True or False:\ndef num(n:int):\n\tpass\nbool(num)","True\nDon't ask me how, google it :3, but I believe, when we haven't given the arguments or bracket, it will be True, if we give, then it will first run the function and then False"]
 ]
