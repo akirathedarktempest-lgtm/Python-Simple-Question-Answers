@@ -44,5 +44,15 @@ questions=[
     ["True or False:\nbool(100-99+1-2==False)","True"],
     ["True or False:\nbool(a=0)","Error lol\nTypeError, bool takes no keyword arguement"],
     ["True or False:\ndef num(n:int):\n\tpass\nbool(num(120))","False lol\nI don't know how, haha, it's funny"],
-    ["True or False:\ndef num(n:int):\n\tpass\nbool(num)","True\nDon't ask me how, google it :3, but I believe, when we haven't given the arguments or bracket, it will be True, if we give, then it will first run the function and then False"]
+    ["True or False:\ndef num(n:int):\n\tpass\nbool(num)","True\nDon't ask me how, google it :3, but I believe, when we haven't given the arguments or bracket, it will be True, if we give, then it will first run and then False"],
+    ["Find the error:\nfor i in range(100)\n\tprint(i)","The \":\" is missing after range"],
+    ["Find the error:\na=5\nb=10\nprint(100/(a-b+5))","ZeroDivisionError\na-b+5=0, and 0 is the divisor"],
+    ["Find the error:\nc=0\nif a==0:\n\tprint(\"Yes!\")","There's no keyword or variable like a present in the code"],
+    ["Find the error:\nbol(0)","Spelling of bool"],
+    ["Find the error:\n\"\"\"Hello World!\"\"","That one \" is missing at the end"],
+    ["Find the error:\ny=\"hello\"\ny=int(y)","You can't transform a string of aphabets and symbols an integer"],
+    ["Find the error:\npirnt(\"Hello world!\")","Spelling of print"],
+    ["Find the error:\nprint(\"Hello\")\nprint(1)\nprint(0)","No error lol"],
+    ["Find the error:\nif 1:\n\tprint(1)\nelse:\n\tprint(0)","No error lol"],
+    ["Find the error:\ntry:\n\tprint(\"Yes\")\n\texcept:\n\t\tprint(\"No\")","Indentation error, except should at the position where try is"]
 ]
