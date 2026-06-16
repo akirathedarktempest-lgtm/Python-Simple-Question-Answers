@@ -54,5 +54,15 @@ questions=[
     ["Find the error:\npirnt(\"Hello world!\")","Spelling of print"],
     ["Find the error:\nprint(\"Hello\")\nprint(1)\nprint(0)","No error lol"],
     ["Find the error:\nif 1:\n\tprint(1)\nelse:\n\tprint(0)","No error lol"],
-    ["Find the error:\ntry:\n\tprint(\"Yes\")\n\texcept:\n\t\tprint(\"No\")","Indentation error, except should at the position where try is"]
+    ["Find the error:\ntry:\n\tprint(\"Yes\")\n\texcept:\n\t\tprint(\"No\")","Indentation error, except should at the position where try is"],
+    ["What will be the output:\nprint(\"Hello World!\")","Hellow World"],
+    ["What will be the output:\nfor i in range(1,3):\n\tprint(\"*\"*i,end=\"-\")","*-**-"],
+    ["What will be the output:\nprint(0==True)","False"],
+    ["What will be the output:\nprint(1==True)","True"],
+    ["What will be the output:\nprint(12==True)","False"],
+    ["What will be the output:\nprint(bool(\"\")==False)","True"],
+    ["What will be the output:\nprint(True)","True"],
+    ["What will be the output:\nprint(12==False)","True"],
+    ["What will be the output:\nprint(1001!=True)","True"],
+    ["What will be the output:\nprint(001==False)","SyntaxError\nAn integer shouldn't start with 0, unless it is a decimal like 0.1, which is float."]
 ]
