@@ -64,5 +64,15 @@ questions=[
     ["What will be the output:\nprint(True)","True"],
     ["What will be the output:\nprint(12==False)","True"],
     ["What will be the output:\nprint(1001!=True)","True"],
-    ["What will be the output:\nprint(001==False)","SyntaxError\nAn integer shouldn't start with 0, unless it is a decimal like 0.1, which is float."]
+    ["What will be the output:\nprint(001==False)","SyntaxError\nAn integer shouldn't start with 0, unless it is a decimal like 0.1, which is float."],
+    ["l=[1,2,3,4]\nprint(l.pop())","4"],
+    ["l=[1,2,3]\nl.pop()\nprint(l)","[1,2]"],
+    ["l=[]\nprint(l.append(10))","None"],
+    ["l=[]\nl.append(10)\nprint(l)","[10]"],
+    ["s={1,2,3,4,4,44}\nprint(s)","{1,2,3,4,44}"],
+    ["d={\"number\":1,\"number2\":2}\nprint(d[\"number\"])","1"],
+    ["d={}\nd[\"hello\"]=1\nprint(d)","{\"hello\":1}"],
+    ["Write the code to print 'HelloWorld!' in the terminal","print(\"HelloWorld!\")"],
+    ["Write a code of for loop to print numbers 0 to 9","*An example:*\nfor i in range(10):\n\tprint(i)"],
+    ["Write a code of while loop to print numbers 0 to 9","*An example:*\ni=0\nwhile i<10:\n\tprint(i)\n\ti+=1"]
 ]
