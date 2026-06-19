@@ -88,4 +88,14 @@ questions=[
     ["Write a code to find whether \"a\" is in the string or not","word=input()\nif \"a\" in word:\n\tprint(\"There is \"a\"!\")\nelse:\n\tprint(\"No\")"],
     ["Take a name and say Hi to him/her/them","name=input(\"Name: \")\nprint(\"Hi \"+name)"],
     ["Calculate 124*23/52+2-7*44/12 and show the answer in the terminal","print(124*23/52+2-7*44/12)\n\nAnswer:31.17948717948718"],
+    ["Make a list of names and run a loop with saying them hi!","Example:\nn=[\"Akira\",\"Yuzui\"]\nfor i in n:\n\tprint(f\"Hi {i}\")"],
+    ["Make a dictionary of names by roll number, and ask for the roll number to call him/her/they","d={1:\"Akira\",2:\"Yuzui\"\nn=int(input())\nprint(d[n])#I haven't added the error handling for case if number isn't valid, but you must be ready to avoid any error"],
+    ["Type hello three times nonstop\nDesire output: hellohellohello","print(\"hello\"*3)"],
+    ["Ask 'kill or be killed' and if it says kill, reply 'you're not good' otherwise 'are you fine?'","a=input(\"Kill or be killed: \")\nif a.lower()==\"kill\"\n\tprint(\"You're...a nice guy...haha\")\nelse:\n\tprint(\"Aw, aare you fine?\")"],
+    ["Is 1==True true?","Yes, it's true"],
+    ["Print \"Haha! Desire is noble!\"","print(\"Haha! Desire is noble!\")#making dr stone and Ryusui fans"],
+    ["Print \"I wish to love...pyth-- no! Not python!\"","print(\"I wish to love...pyth-- no! Not python!\")"],
+    ["Make an infinite loop and once you type something, you should get a hi message all the time!","while True:\n\tn=input()\n\tprint(\"Hi!\")"],
+    ["How to make an infinite loop by while without any variable?","while True:"],
+    ["Show \"This looks scary, no?\" on the terminal!","print(\"This looks scary, no?\")"]
 ]
