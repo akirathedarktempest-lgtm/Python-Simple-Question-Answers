@@ -97,5 +97,15 @@ questions=[
     ["Print \"I wish to love...pyth-- no! Not python!\"","print(\"I wish to love...pyth-- no! Not python!\")"],
     ["Make an infinite loop and once you type something, you should get a hi message all the time!","while True:\n\tn=input()\n\tprint(\"Hi!\")"],
     ["How to make an infinite loop by while without any variable?","while True:"],
-    ["Show \"This looks scary, no?\" on the terminal!","print(\"This looks scary, no?\")"]
+    ["Show \"This looks scary, no?\" on the terminal!","print(\"This looks scary, no?\")"],
+    ["Show \"I love Python...\" on the terminal","print(\"I love Python...\")"],
+    ["Ask for two numbers from the user and add them and show the sum","n1=int(input())\nn2=int(input())\nprint(n1+n2)"],
+    ["Ask for two numbers from the user and subtract them and show the difference","n1=int(input())\nn2=int(input())\nprint(n1-n2)"],
+    ["Ask for a number from the user and make its square and print","n1=int(input())\nprint(n1**2)"],
+    ["Ask for a number from the user and make its cube and print","n1=int(input())\nprint(n1**3)"],
+    ["Write a code asking your friend's birthday","Oh, sorry, you don't have friends.\nJust kidding\nday=input(\"Date of Birth\")"],
+    ["Write a code saying 'I love cats'","print(\"I love cats\")"],
+    ["Write a code asking your friend their favorite number and then reply that your favorite is 143","n=int(input(\"Favorite number? \"))\nprint(\"That's cool! Mine is 143\")"],
+    ["Is Python easy?","It really depends now, not just Python, but if you can't have the logic to understand, it will be hard. Otherwise you just need to learn a little bit, it will be easy then."],
+    ["Python is a high language or a low language?","High Language"]
 ]
